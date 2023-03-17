@@ -26,6 +26,6 @@ Sample Output 2 :
 1   
 
 Sample Input 3 :   
-# 
+*   
 Sample Output 3 :   
 -1   
