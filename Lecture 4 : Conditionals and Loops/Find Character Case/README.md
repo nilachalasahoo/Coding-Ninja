@@ -15,17 +15,17 @@ Output format :
 Constraints : 
 Input can be any character 
 
-Sample Input 1 : 
-v 
-Sample Output 1 : 
-0 
+Sample Input 1 :  
+v  
+Sample Output 1 :   
+0   
 
-Sample Input 2 : 
-V 
-Sample Output 2 : 
-1 
+Sample Input 2 :   
+V   
+Sample Output 2 :   
+1   
 
-Sample Input 3 : 
+Sample Input 3 :   
 # 
-Sample Output 3 : 
--1 
+Sample Output 3 :   
+-1   
