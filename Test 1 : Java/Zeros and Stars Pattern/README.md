@@ -1,4 +1,4 @@
-Zeros and Stars Pattern
+# Zeros and Stars Pattern
 
 
 
