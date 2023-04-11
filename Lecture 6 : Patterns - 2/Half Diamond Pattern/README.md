@@ -1,4 +1,4 @@
-Half Diamond Pattern
+# Half Diamond Pattern
 
 
 
