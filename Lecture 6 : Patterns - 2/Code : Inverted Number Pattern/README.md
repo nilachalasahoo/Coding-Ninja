@@ -1,4 +1,4 @@
-Code : Inverted Number Pattern
+# Code : Inverted Number Pattern
 
 
 
