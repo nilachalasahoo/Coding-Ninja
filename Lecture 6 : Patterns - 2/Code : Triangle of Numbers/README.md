@@ -1,4 +1,4 @@
-Code : Triangle of Numbers
+# Code : Triangle of Numbers
 
 
 
