@@ -1,4 +1,4 @@
-Code : Reverse Number Pattern
+# Code : Reverse Number Pattern
 
 
 Print the following pattern for the given N number of rows.         
