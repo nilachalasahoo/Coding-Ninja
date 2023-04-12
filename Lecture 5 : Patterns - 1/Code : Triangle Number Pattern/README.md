@@ -1,4 +1,4 @@
-Code : Triangle Number Pattern
+# Code : Triangle Number Pattern
 
 
 
