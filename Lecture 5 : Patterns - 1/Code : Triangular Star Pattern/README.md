@@ -1,4 +1,4 @@
-Code : Triangular Star Pattern
+# Code : Triangular Star Pattern
 
 
 
