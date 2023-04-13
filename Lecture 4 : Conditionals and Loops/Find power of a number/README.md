@@ -1,4 +1,4 @@
-Find power of a number
+# Find power of a number
 
 
 
