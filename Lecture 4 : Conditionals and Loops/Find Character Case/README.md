@@ -1,4 +1,4 @@
-Find Character Case
+# Find Character Case
 
 
 Write a program that takes a character as input and prints either 1, 0 or -1 according to the following rules. 
