@@ -1,4 +1,4 @@
-Total Salary
+# Total Salary
 
 
 Write a program to calculate the total salary of a person. The user has to enter the basic salary (an integer) and the grade (an uppercase character), and depending upon which the total salary is calculated as -    
