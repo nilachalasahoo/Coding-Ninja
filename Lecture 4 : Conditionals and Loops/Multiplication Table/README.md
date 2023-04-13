@@ -1,4 +1,4 @@
-Multiplication Table
+# Multiplication Table
 
 
 Write a program to print multiplication table of n   
