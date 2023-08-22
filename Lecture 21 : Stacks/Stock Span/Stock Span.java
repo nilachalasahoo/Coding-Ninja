@@ -6,35 +6,30 @@ public class Solution {
 		int n=price.length;
 		if(n==0)
 			return new int[0];
-		Stack<Integer> st1=new Stack<Integer>();
-		Stack<Integer> st2=new Stack<Integer>();
+		Stack<Integer> st=new Stack<Integer>();
 		int arr[]=new int[n];
 		arr[0]=1;
-		st1.push(price[0]);
+		st.push(0);
 		for(int i=1;i<n;i++){
-			if(price[i]>price[i-1]){
+			if(price[i]>price[st.peek()]){
 				int c=0;
-				st2.push(price[i]);
-				while(!st1.isEmpty()){
-					int x=st1.pop();
-					st2.push(x);
-					if(x<price[i]){
-						c++;
+				while(!st.isEmpty()){
+					if(price[st.peek()]<price[i]){
+						st.pop();
 					}else{
-						arr[i]=c+1;
+						arr[i]=i-st.peek();
+						st.push(i);
 						break;
 					}
 				}
-				if(st1.isEmpty()){
+				if(st.isEmpty()){
 					arr[i]=i+1;
+					st.push(i);
 				}
 			}
 			else{
 				arr[i]=1;
-				st1.push(price[i]);
-			}
-			while(!st2.isEmpty()){
-				st1.push(st2.pop());
+				st.push(i);
 			}
 		}
 		return arr;
