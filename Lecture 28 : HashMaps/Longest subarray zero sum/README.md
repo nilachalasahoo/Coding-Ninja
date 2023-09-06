@@ -22,8 +22,8 @@ Sample Input 1:
 Sample Output 1:                 
 5                    
 Explanation:                
-The five elements that form the longest subarray that sum up to zero are: -387, -435, -5, -70, 897              
+The five elements that form the longest subarray that sum up to zero are: -387, -435, -5, -70, 897.                       
 
-Note:               
+Note:                 
 You don't have to print anything. Just complete the definition of the function given and return the value accordingly.              
 
